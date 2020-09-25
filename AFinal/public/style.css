@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+/*
+* CSS for Landing Page
+*/
+body{
+  margin: 0;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+div.head-info {
+  text-align: center;
+  font-family: verdana;
+  color: white;
+  background-color: rgb(56, 56, 94);
+
+}
+
+.fa-star {
+  color: black;
+}
+
+div.login-prompt {
+  margin: auto;
+  background-color: rgb(102, 102, 149);
+}
+
+div.head-title {
+  display: inline;
+}
+
+label {
+  font-family: verdana;
+}
+
+
+#login-username-input {
+  resize: none;
+}
+
+#login-password-input {
+  resize: none;
+}
+
+#login-modal {
+  margin: auto;
+  border: solid #666695;
+  border-radius: 8px;
+  width: 300px;
+  padding: 12px;
+  margin: 100px auto;
+}
+
+#login-username-input{
+  border-radius: 6px;
+  border: 1px black solid;
+  width: 100%;
+  height: 40px;
+  padding: 0;
+  margin-bottom: 6px;
+  font-size: 16px;
+}
+
+#login-password-input{
+  border-radius: 6px;
+  border: 1px black solid;
+  width: 100%;
+  height: 40px;
+  padding: 0;
+  font-size: 16px;
+}
+
+.login-body{
+  margin: 0;
+}
+
+.login-continue-button{
+  color: #F8F8F8;
+  background-color: #666695;
+  border: 1px black solid;
+  width: 100%;
+  margin: 4px auto;
+  border-radius: 6px;
+  font-size: 14px;
+  padding: 8px;
+}
+
+.login-continue-button:hover{
+  background-color: #38385E;
+  cursor: pointer;
+}
+
+.login-guest-button{
+  border: 1px black solid;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+  font-size: 14px;
+  padding: 8px;
+  margin-left: auto;
+}
+
+.login-guest-button:hover{
+  background-color: #d6d6d6;
+  cursor: pointer;
+}
+
+/*
+* CSS for the shopping cart and 404 page
+*/
+.header-trim {
+  background-color: rgb(56, 56, 94);
+  height: 100px;
+}
+
+.body-info-container {
+  display: flex;
+}
+
+.outter-trim {
+  background-color: rgb(56, 56, 94);
+  width: 75px;
+  height: 100vh;
+}
+
+.inner-trim {
+  background-color: rgb(102, 102, 149);
+  width: 50px;
+  height: 100vh;
+}
+
+.center-body-container {
+  width: 100%;
+}
+
+.total-cost {
+  text-align: center;
+}
+
+/*
+* CSS for mainShop and other pages
+*/
+.item-container {
+  padding: 40px;
+  /* margin-top: 10px;
+  margin-left: 75px;
+  margin-right: 75px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.shop-item {
+  margin: 10px;
+  width: 250px;
+  padding: 10px;
+  background-color: #F8F8F8;
+  border: solid;
+  border-color: rgb(102, 102, 149);
+  border-radius: 8px;
+}
+
+.shop-item-image {
+  max-width: 200px;
+  max-height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-info-sameline {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px;
+  align-content: space-between;
+}
+
+.item-caption {
+  margin: auto;
+  padding: 4px;
+}
+
+.like-button-heart {
+  padding-top: 18px;
+  margin-right: 5px;
+  text-align: right;
+}
+
+.like-number{
+  float: right;
+  margin-right: 5px;
+  margin-left: auto;
+}
+
+.item-price{
+  font-weight: 500;
+}
+
+.item-addtocart-button{
+  color: #F8F8F8;
+  background-color: #666695;
+  width: 65%;
+  border: 1px black solid;
+  border-radius: 6px;
+  font-size: 14px;
+  padding: 8px;
+}
+
+.item-addtocart-button:hover{
+  background-color: #38385E;
+  cursor: pointer;
+}
+
+.item-like-button{
+  border: 1px black solid;
+  border-radius: 6px;
+  width: 30%;
+  font-size: 14px;
+  padding: 8px;
+  margin-left: auto;
+}
+
+.item-like-button:hover{
+  background-color: #d6d6d6;
+  cursor: pointer;
+}
+
+#title-message {
+  color: white;
+  text-align: center;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(102, 102, 149);
+}
+
+.top-footer {
+  color: white;
+  width: 150px;
+  margin: 0px auto 30px;
+  border: 2px solid rgb(56, 56, 94);
+  background-color: rgb(102, 102, 149);
+}
+
+.top-footer a {
+  color: white;
+}
+
+p.top-footer {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: medium;
+}
+
+a:hover {
+  color: lightskyblue;
+}
+
+h1{
+  margin: 8px;
+}
+
+.navitem a{
+  color: white;
+}
+
+.navitem a:hover{
+  color: lightskyblue;
+}
+
+.active{
+  font-weight: 600;
+}
+
+.navbar{
+  background-color: rgb(56, 56, 94);
+  height: 100px;
+  padding: 2px;
+}
+
+.navlist{
+  padding-top: 10px;
+  margin:2px;
+}
+
+.navitem{
+  display: inline-block;
+  padding: 8px;
+  font-size: medium;
+  color: white;
+}
+
+.navbar-cart {
+  float: right;
+  margin-right: 20px;
+  padding-top: 15px;
+}
+
+.item-info {
+  margin: auto 20px;
+}
+
+/*
+.image-container {
+  margin-left: 55px;
+}
+*/
+#navbar-shopping-cart-button {
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  color: black;
+}

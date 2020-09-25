@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>CS290 Merch</title>
+
+    <link rel="stylesheet" href="/style.css" media="screen">
+    <!-- This is the 3rd-party stylesheet for SVG icons from Font Awesome  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="/shopItem.js" charset="utf-8" defer></script>
+
+  </head>
+
+  <body>
+
+    <div class="header-trim"></div>
+
+    <div class="body-info-container">
+
+      <div class="outter-trim"></div>
+      <div class="inner-trim"></div>
+
+      <div class="center-body-container">
+        <h2 id="title-message">{{message}}</h2>
+
+        <main class="item-container">
+      
+          <!--  Adds the shop items here -->
+          {{#each cartItem}}
+            {{> shopItem}}
+          {{/each}}
+
+        </main>
+
+        <h1 class="total-cost">{{totalCost}}</h1>
+      </div>
+
+      <div class="inner-trim"></div>
+      <div class="outter-trim"></div>
+
+    </div> 
+
+  </body>
+
+</html>

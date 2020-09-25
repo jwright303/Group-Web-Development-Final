@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>CS290 Merch</title>
+
+    <link rel="stylesheet" href="/style.css" media="screen">
+    <!-- This is the 3rd-party stylesheet for SVG icons from Font Awesome  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" crossorigin="anonymous">
+
+    <script src="/index.js" charset="utf-8" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="/shopItem.js" charset="utf-8" defer></script>
+
+  </head>
+
+  <body>
+    <header>
+      {{!-- <a href="#"><h1>Shop Name<h1></a> --}}
+      <nav class="navbar">
+        <ul class="navlist">
+          <li class="navitem navtitle"><a href="/mainShop.html"><h1>CS290</h1></a></li>
+          <li class="navitem navlink active"><a href="/mainShop.html">Home</a></li>
+          <li class="navitem navlink"><a href="/clothes.html">Clothes</a></li>
+          <li class="navitem navlink"><a href="/stickers.html">Stickers</a></li>
+          <li class="navitem navbar-cart">
+            <button type="button" id="navbar-shopping-cart-button"><i class="fa fa-shopping-cart"></i></button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <h2 id="title-message">{{message}}</h2>
+
+    <main class="item-container">
+
+      <!--  Adds the shop items here -->
+      {{#each shopList}}
+        {{> shopItem}}
+      {{/each}}
+
+    </main>
+
+    <p class="top-footer"><a href="#">Jump to top</a></p>
+
+  </body>
+
+</html>

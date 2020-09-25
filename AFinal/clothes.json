@@ -1,0 +1,80 @@
+[
+  {
+    "url": "http://web.engr.oregonstate.edu/~verzinoc/hoodie14",
+    "caption": "CS290 Store White Hoodie",
+    "likes": 200,
+    "price": "$30"
+  },
+  {
+    "url": "http://web.engr.oregonstate.edu/~verzinoc/hoodie1",
+    "caption": "Web Developer Black Hoodie",
+    "likes": 200,
+    "price": "$30"
+  },
+  {
+    "url": "http://web.engr.oregonstate.edu/~verzinoc/hoodie4",
+    "caption": "Breakfast Grey Hoodie",
+    "likes": 200,
+    "price": "$30"
+  },
+  {
+    "url": "http://web.engr.oregonstate.edu/~verzinoc/hoodie8",
+    "caption": "PB&J Tan Hoodie",
+    "likes": 200,
+    "price": "$30"
+  },
+  {
+    "url": "http://web.engr.oregonstate.edu/~verzinoc/hoodie6",
+    "caption": "Rey Orange Hoodie",
+    "likes": 200,
+    "price": "$30"
+  },
+  {
+    "url": "http://web.engr.oregonstate.edu/~verzinoc/hoodie10",
+    "caption": "Cat Person White Hoodie",
+    "likes": 200,
+    "price": "$30"
+  },
+  {
+    "url": "http://web.engr.oregonstate.edu/~verzinoc/hoodie5",
+    "caption": "Free Textbook Blue Hoodie",
+    "likes": 200,
+    "price": "$30"
+  },
+  {
+    "url": "http://web.engr.oregonstate.edu/~verzinoc/hoodie2",
+    "caption": "Tweeter Twitter Navy Hoodie",
+    "likes": 200,
+    "price": "$30"
+  },
+  {
+    "url": "http://web.engr.oregonstate.edu/~verzinoc/hoodie7",
+    "caption": "Styling CSS Tan Hoodie",
+    "likes": 200,
+    "price": "$30"
+  },
+  {
+    "url": "http://web.engr.oregonstate.edu/~verzinoc/hoodie9",
+    "caption": "PB&J Pink Hoodie",
+    "likes": 200,
+    "price": "$30"
+  },
+  {
+    "url": "http://web.engr.oregonstate.edu/~verzinoc/hoodie12",
+    "caption": "Web Dev 2020 White Hoodie",
+    "likes": 200,
+    "price": "$30"
+  },
+  {
+    "url": "http://web.engr.oregonstate.edu/~verzinoc/hoodie3",
+    "caption": "Listening Server Grey Hoodie",
+    "likes": 200,
+    "price": "$30"
+  },
+  {
+    "url": "http://web.engr.oregonstate.edu/~verzinoc/hoodie13",
+    "caption": "Web Dev Certified Hoodie",
+    "likes": 200,
+    "price": "$30"
+  }
+]
